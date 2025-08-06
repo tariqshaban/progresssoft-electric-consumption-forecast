@@ -83,18 +83,22 @@ The following plots are a visual representation of the dataset after carrying ou
 steps:
 
 > ![distribution_plot](assets/images/eda/distribution_plot.png)
+>
 > The distribution indicates an often right-skewness in some features, especially in `is_holiday`, where it is heavily
 > right-skewed.
 
 > ![box_plot](assets/images/eda/box_plot.png)
+>
 > The boxplot suggests that `Sub Metering 1`, `Sub Metering 2`, and `is_holiday` features have nearly zero-length
 > interquartile range and whiskers, indicating that the data spread (excluding outliers) is too small.
 
 > ![monthly_mean_power](assets/images/eda/monthly_mean_power.png)
+>
 > The monthly-averaged feature values in the line plot specify that August observed the least amount of power
 > consumption indicators.
 
 > ![time_series_for_each_feature](assets/images/eda/time_series_for_each_feature.png)
+>
 > The time series plot represents the fluctuation of the features in the whole timeframe, indicating that
 > the `is_holiday` feature is set to true in a very few days throughout the years.
 

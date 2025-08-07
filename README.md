@@ -119,7 +119,7 @@ The following table indicates the hardware used to train the models:
 
 The following table indicates the software and main packages used to train the models:
 
-| Hardware       | Specification                 |
+| Software       | Specification                 |
 |----------------|-------------------------------|
 | **OS**         | Windows 10 build version 22H2 |
 | **CUDA**       | Version 11.8                  |
